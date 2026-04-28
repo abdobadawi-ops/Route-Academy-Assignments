@@ -1,5 +1,5 @@
 #Route Academy Assignments
-> This The Main Repo That will include all of my course's assignment during my route academy journey.
+> This is the Main Repo That will include all of my course assignments during my route academy journey.
 
 This repository is created to:
 - Track my learning progress
