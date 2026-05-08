@@ -800,7 +800,7 @@ tfoot .bg-violet p {
 /* product section */
 .product-section {
   background-color: var(--section-bacground);
-  padding: 8.6rem;
+  padding-block: 8.6rem;
 }
 
 .products-container {
