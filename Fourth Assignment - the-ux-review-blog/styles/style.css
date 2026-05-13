@@ -333,7 +333,7 @@ img {
 .hero__img-holder {
   height: 385px;
   width: 100%;
-  background-image: url(hero-img.png);
+  background-image: url(./hero-img.png);
   background-position: center;
   background-size: cover;
   box-shadow:
