@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  background-color: rgb(255, 223, 32);
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+.square--blue {
+  background-color: blue;
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  right: 30px;
+  transform: rotate(-30deg);
+}
+
+.square--red {
+  background-color: red;
+}

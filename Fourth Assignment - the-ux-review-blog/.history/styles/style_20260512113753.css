@@ -1,0 +1,78 @@
+/*
+font weights: 400 - 900
+900  =>  secondary (section) headers and primary header, author names
+800 => logo
+700 - secondary headings and side bar, buttons and labels
+600 => h2 + p, tags and nav bar links
+500 => hero text
+400 => p 
+
+font sizes: 
+72 => primary header
+48 => secondary header
+36 => numbers 
+30
+24 => hero paragraph, articles headers
+20 => buttons, h2 + p
+18 
+16 => cat links, hero featured label
+14 => nav bar links, tags
+12 => some labels
+
+colors: 
+#FFDF20
+#DBFCE7
+#FDA5D5
+#DBEAFE
+#F3E8FF
+#000000
+#AD46FF
+#2B7FFF
+#FB2C36
+#FEF2F2
+#EFF6FF
+#FAF5FF
+#FB2C36
+#2B7FFF
+#AD46FF
+#00C950
+#FDC700
+#FFFFFF
+
+
+
+*/
+
+:root {
+  --color-red-50: oklch(97.1% 0.013 17.38);
+  --color-red-100: oklch(93.6% 0.032 17.717);
+  --color-red-500: oklch(63.7% 0.237 25.331);
+  --color-red-600: oklch(57.7% 0.245 27.325);
+  --color-orange-500: oklch(70.5% 0.213 47.604);
+  --color-amber-300: oklch(87.9% 0.169 91.605);
+  --color-yellow-100: oklch(97.3% 0.071 103.193);
+  --color-yellow-200: oklch(94.5% 0.129 101.54);
+  --color-yellow-300: oklch(90.5% 0.182 98.111);
+  --color-yellow-400: oklch(85.2% 0.199 91.936);
+  --color-green-100: oklch(96.2% 0.044 156.743);
+  --color-green-300: oklch(87.1% 0.15 154.449);
+  --color-green-500: oklch(72.3% 0.219 149.579);
+  --color-blue-50: oklch(97% 0.014 254.604);
+  --color-blue-100: oklch(93.2% 0.032 255.585);
+  --color-blue-300: oklch(80.9% 0.105 251.813);
+  --color-blue-500: oklch(62.3% 0.214 259.815);
+  --color-blue-600: oklch(54.6% 0.245 262.881);
+  --color-purple-50: oklch(97.7% 0.014 308.299);
+  --color-purple-100: oklch(94.6% 0.033 307.174);
+  --color-purple-300: oklch(82.7% 0.119 306.383);
+  --color-purple-500: oklch(62.7% 0.265 303.9);
+  --color-purple-600: oklch(55.8% 0.288 302.321);
+  --color-pink-100: oklch(94.8% 0.028 342.258);
+  --color-pink-300: oklch(82.3% 0.12 346.018);
+  --color-pink-600: oklch(59.2% 0.249 0.584);
+  --color-gray-300: oklch(87.2% 0.01 258.338);
+  --color-neutral-50: oklch(98.5% 0 0);
+  --color-neutral-100: oklch(97% 0 0);
+  --color-neutral-400: oklch(70.8% 0 0);
+  --color-neutral-600: oklch(43.9% 0 0);
+}

@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 120rem;
+  margin-inline: auto;
+  padding-inline: auto;
+  position: relative;
+}
+
+.hero {
+  height: 100vh;
+  background-color: rgb(255, 240, 133);
+  opacity: 0.9;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 240, 133, 0.9);
+}
+
+.hero__primary-title {
+  font-size: 7.2rem;
+}
+
+.hero__title-word {
+  display: block;
+}
+
+.square--big {
+  width: 125px;
+  height: 125px;
+}
+
+.square--small {
+  width: 100px;
+  height: 100px;
+}
+
+.square--blue {
+  background-color: blue;
+}
+
+.square--red {
+  background-color: red;
+}
+
+.square--left-top {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  left: 50px;
+  transform: rotate(15deg);
+}
+
+.square--right-top {
+  position: absolute;
+  z-index: -1;
+  top: 200px;
+  right: 100px;
+  transform: rotate(-40deg);
+}
