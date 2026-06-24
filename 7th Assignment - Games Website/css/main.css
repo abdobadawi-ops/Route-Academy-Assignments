@@ -132,7 +132,7 @@ h6 {
 /* hero */
 .hero {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.8)), url(../images/hero-bg.jpg);
+    linear-gradient(rgba(0, 0, 0, 0.8)), url("../images/hero-bg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
