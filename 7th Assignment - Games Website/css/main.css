@@ -37,6 +37,11 @@
   --main-color: #cbfe1c;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 74px;
+}
+
 body {
   font-family: "Chakra Petch", sans-serif;
 }
